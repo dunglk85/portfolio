@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Kim Dzung Lee's portfolio",
+  "main": "index.html",
+  "scripts": {
+  	"start": "npm run lite",
+    "test": "start",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunglk85/portfolio.git"
+  },
+  "keywords": [
+    "Kim's",
+    "portfolio"
+  ],
+  "author": "Kim Dzung Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunglk85/portfolio/issues"
+  },
+  "homepage": "https://github.com/dunglk85/portfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
