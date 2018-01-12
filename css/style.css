@@ -140,36 +140,16 @@ figure:hover .middle {
 	width: 400px;
 }
 
-#cotapage {
-	padding: 30px;
-	display: flex;
+#contact .row {
 	text-align: left;
-}
-#cotapage h3 {
-	padding-bottom: 20px;
-}
-#cotainfo {
-	width: 35%;
-}
-#cotaform {
-	padding-left: 10px;
-	width: 65%;
-	font-size: 0.9em;
-}
-#cotaform input, textarea {
-	width: 60%;
-	margin: 5px;
-}
-
-#cotaform label {
-	width: 35%;
-	vertical-align: top;
 }
 
 /*---------main------------*/
 /*----------------footer--------------*/
 footer {
-	padding: 20px 0;
+	position: sticky;
+	bottom: 0;
+	padding: 5px 0;
 	background-color: lightblue;
 	text-align: center;
 }
@@ -188,24 +168,8 @@ footer a {
 	.carousel-inner .item img {
 		height: 500px;
 	}
-	footer {
-		position: initial;
-	}
+	
 	#divide {
 		display: none;
-	}
-	#cotapage {
-		padding: 10px;
-		display: block;
-		text-align: left;
-	}
-
-	#cotainfo, #cotaform {
-		width: 100%;
-		padding: 0px 10px;
-	}
-
-	#cotaform input, textarea, label {
-		width: 100%;
 	}
 }
