@@ -1,13 +1,4 @@
-
 $(document).ready(function() {
-	$("#pauseBtn").click(function() {
-		$("#myCarousel").carousel("pause");
-	});
-
-	$("#playBtn").click(function() {
-		$("#myCarousel").carousel("cycle");
-	});
-
 	$('.fancybox').fancybox({
 		padding: 5
 	});

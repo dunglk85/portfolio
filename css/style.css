@@ -1,0 +1,211 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f1f1f1;
+	position: relative;
+}
+/*----------------NAV-----------------*/
+.navbar-inverse {
+	background-color: #512DA8;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+.navbar-brand:hover {
+	transform: rotate(720deg);
+	transition: transform 2s;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+/*----------------endNAV-----------------*/
+/*---------main------------*/
+main > div {
+	padding: 80px 10px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.card img {
+	width: 100%;
+	height: 250px;
+}
+.card a {
+	text-decoration: none;
+	padding: 6px;
+}
+.card p:last-child {
+	background-color: #000;
+	padding: 6px;
+	margin-top: 10px;
+}
+.carousel-inner .item {
+	background-color: rgba(125,255,255,0.3);
+	height: 300px;
+}
+
+.carousel-inner .item img {
+	min-height: 300px;
+	width: 100%;
+	border-radius: 0%;
+}
+
+.carousel-caption {
+	position: absolute;
+	text-align: left;
+	bottom: 50px;
+}
+
+#myCarousel .btn-group {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#myCarousel {
+	margin: 20px;
+}
+
+#pros {
+	padding: 50px 20px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+figure {
+	position: relative;
+}
+
+figure img {
+	border-radius: 0%;
+	height: 200px;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+}
+figure:hover img {
+	opacity: 0.4;
+}
+
+.middle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	opacity: 0;
+	text-align: center;
+	padding-top: 60px;
+}
+.middle a {
+	text-decoration: none;
+	color: white;
+}
+
+figure:hover .middle {
+	opacity: 0.8;
+}
+
+.fancybox i {
+	padding-top: 10px;
+	border: 1px solid white;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.fancybox-inner img {
+	height: 300px;
+	width: 400px;
+}
+
+#cotapage {
+	padding: 30px;
+	display: flex;
+	text-align: left;
+}
+#cotapage h3 {
+	padding-bottom: 20px;
+}
+#cotainfo {
+	width: 35%;
+}
+#cotaform {
+	padding-left: 10px;
+	width: 65%;
+	font-size: 0.9em;
+}
+#cotaform input, textarea {
+	width: 60%;
+	margin: 5px;
+}
+
+#cotaform label {
+	width: 35%;
+	vertical-align: top;
+}
+
+/*---------main------------*/
+/*----------------footer--------------*/
+footer {
+	padding: 20px 0;
+	background-color: lightblue;
+	text-align: center;
+}
+
+footer a {
+	display: inline-block;
+	margin: 2px 6px;
+}
+/*----------------endfooter--------------*/
+
+@media screen and (max-width: 678px) {
+	
+	.carousel-inner .item {
+		height: 500px;
+	}
+	.carousel-inner .item img {
+		height: 500px;
+	}
+	footer {
+		position: initial;
+	}
+	#divide {
+		display: none;
+	}
+	#cotapage {
+		padding: 10px;
+		display: block;
+		text-align: left;
+	}
+
+	#cotainfo, #cotaform {
+		width: 100%;
+		padding: 0px 10px;
+	}
+
+	#cotaform input, textarea, label {
+		width: 100%;
+	}
+}

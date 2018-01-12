@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kim Dzung Lee's portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fancybox-2.1.7/source/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="project">
+	<header>
+		<nav id="myNav">
+			<a href="aboutme.html" class="left">LKD</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+			<a href="contact.html">Contact</a>
+			<a href="#" class="active">Projects</a>
+			<a href="aboutme.html">About me</a>
+			<a href="index.html">Home</a>
+		</nav>
+	</header>
+	<main>
+		<h2>Projects</h2>
+		<div id="btnContainer">
+			<button class="btn active" onclick="filterElement(this)" id="all">Show all</button>
+			<button class="btn" onclick="filterElement(this)" id="real">Real</button>
+			<button class="btn" onclick="filterElement(this)" id="demo">Demo</button>
+		</div>
+		<div id="pros">
+			<figure class="real">
+				<img src="images/pro1.jpg" alt="quotemachin">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro1.jpg"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="https://dunglk85.github.io/Quote-Machine/" target="_blank">Real Project</a>
+				</div>
+				<figcaption>Quote Machine</figcaption>
+			</figure>
+			<figure class="real">
+				<img src="images/pro2.jpg" alt="wikiviewer">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro2.jpg"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="https://dunglk85.github.io/Wiki-viewer/" target="_blank">Real Project</a>
+				</div>
+				<figcaption>Wiki Viewer</figcaption>
+			</figure>
+			<figure class="demo">
+				<img src="images/pro3.png" alt="demo1">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro3.png"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="#">Demo Project</a>
+				</div>
+				<figcaption>Demo 1</figcaption>
+			</figure>
+			<figure class="real">
+				<img src="images/pro4.jpg" alt="calculator">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro4.jpg"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="https://dunglk85.github.io/calculator/" target="_blank">Real Project</a>
+				</div>
+				<figcaption>Calculator</figcaption>
+			</figure>
+			<figure class="demo">
+				<img src="images/pro5.png" alt="demo2">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro5.png"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="#">Demo Project</a>
+				</div>
+				<figcaption>Demo 2</figcaption>
+			</figure>
+			<figure class="real">
+				<img src="images/pro6.png" alt="pomodoro clock">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro6.png"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="https://dunglk85.github.io/Pomodoro-Clock/" target="_blank">Real Project</a>
+				</div>
+				<figcaption>Pomodoro Clock</figcaption>
+			</figure>
+			<figure class="demo">
+				<img src="images/pro7.jpg" alt="demo2">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro7.jpg"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="#">Demo Project</a>
+				</div>
+				<figcaption>Demo 3</figcaption>
+			</figure>
+			<figure class="demo">
+				<img src="images/pro8.jpg" alt="demo2">
+				<div class="middle">
+					<a class="fancybox" rel="project" href="images/pro8.jpg"><i class="fa fa-eye fa-lg"></i></a> <br> <br>
+					<a href="#">Demo Project</a>
+				</div>
+				<figcaption>Demo 4</figcaption>
+			</figure>
+		</div>
+	</main>
+	
+	<footer>
+		<p>Copyright &copy; 2018, <b>Kim Dzung Lee</b></p>
+		<a href="https://www.facebook.com/le.k.dung.9" target="_blank"><i class="fa fa-facebook-official fa-lg"></i></a>
+		<a href="https://plus.google.com/u/0/112960082710796822888" target="_blank"><i class="fa fa-google-plus-circle fa-lg"></i></a>
+		<a href="https://www.linkedin.com/in/le-kim-dzung-03699458/" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
+		<a href="https://github.com/dunglk85/" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="fancybox-2.1.7/source/jquery.fancybox.js"></script>
+	<script src="js/projects.js"></script>
+</body>
+</html>
